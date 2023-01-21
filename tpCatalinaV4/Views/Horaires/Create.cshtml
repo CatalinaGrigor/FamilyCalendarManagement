@@ -1,0 +1,46 @@
+﻿@model tpCatalinaV4.Models.Horaire
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Ajouter un nouvel horaire</h1>
+
+<h4>Horaire</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Date" class="control-label"></label>
+                <input asp-for="Date" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NbRepet" class="control-label"></label>
+                <input asp-for="NbRepet" min=1 class="form-control" />
+                <span asp-validation-for="NbRepet" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UtilisateurID" class="control-label"></label>
+                <select asp-for="UtilisateurID" class ="form-control" asp-items="ViewBag.UtilisateurID"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="TacheID" class="control-label"></label>
+                <select asp-for="TacheID" class ="form-control" asp-items="ViewBag.TacheID"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Ajouter" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Retour a l'horaire general</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

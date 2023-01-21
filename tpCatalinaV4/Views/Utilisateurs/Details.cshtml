@@ -1,0 +1,32 @@
+﻿@model tpCatalinaV4.Models.Utilisateur
+
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Utilisateur</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NomComplet)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NomComplet)
+        </dd>
+       
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Role)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Role)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.UtilisateurID">Mettre a jour</a> |
+    <a asp-action="Index">Retour a la liste des utilisateurs</a>
+</div>

@@ -1,0 +1,41 @@
+﻿@model IEnumerable<tpCatalinaV4.Models.Utilisateur>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Gestion des utilisateurs</h1>
+
+<p>
+    <a asp-action="Create">Ajouter un nouvel utilisateur</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NomComplet)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Role)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomComplet)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Role)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.UtilisateurID">Mettre a jour</a> |
+                <a asp-action="Details" asp-route-id="@item.UtilisateurID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.UtilisateurID">Supprimer</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

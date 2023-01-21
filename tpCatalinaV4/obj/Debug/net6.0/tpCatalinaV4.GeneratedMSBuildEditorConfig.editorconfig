@@ -1,0 +1,104 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = tpCatalinaV4
+build_property.RootNamespace = tpCatalinaV4
+build_property.ProjectDir = C:\Users\Kitty\source\repos\tpCatalinaV4\tpCatalinaV4\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Kitty\source\repos\tpCatalinaV4\tpCatalinaV4
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Kitty/source/repos/tpCatalinaV4/tpCatalinaV4/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kitty/source/repos/tpCatalinaV4/tpCatalinaV4/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kitty/source/repos/tpCatalinaV4/tpCatalinaV4/Views/Horaires/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9yYWlyZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kitty/source/repos/tpCatalinaV4/tpCatalinaV4/Views/Horaires/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9yYWlyZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kitty/source/repos/tpCatalinaV4/tpCatalinaV4/Views/Horaires/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9yYWlyZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kitty/source/repos/tpCatalinaV4/tpCatalinaV4/Views/Horaires/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9yYWlyZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kitty/source/repos/tpCatalinaV4/tpCatalinaV4/Views/Horaires/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9yYWlyZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kitty/source/repos/tpCatalinaV4/tpCatalinaV4/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kitty/source/repos/tpCatalinaV4/tpCatalinaV4/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kitty/source/repos/tpCatalinaV4/tpCatalinaV4/Views/Taches/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFjaGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kitty/source/repos/tpCatalinaV4/tpCatalinaV4/Views/Taches/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFjaGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kitty/source/repos/tpCatalinaV4/tpCatalinaV4/Views/Taches/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFjaGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kitty/source/repos/tpCatalinaV4/tpCatalinaV4/Views/Taches/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFjaGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kitty/source/repos/tpCatalinaV4/tpCatalinaV4/Views/Taches/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFjaGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kitty/source/repos/tpCatalinaV4/tpCatalinaV4/Views/Utilisateurs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXRpbGlzYXRldXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kitty/source/repos/tpCatalinaV4/tpCatalinaV4/Views/Utilisateurs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXRpbGlzYXRldXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kitty/source/repos/tpCatalinaV4/tpCatalinaV4/Views/Utilisateurs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXRpbGlzYXRldXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kitty/source/repos/tpCatalinaV4/tpCatalinaV4/Views/Utilisateurs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXRpbGlzYXRldXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kitty/source/repos/tpCatalinaV4/tpCatalinaV4/Views/Utilisateurs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXRpbGlzYXRldXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kitty/source/repos/tpCatalinaV4/tpCatalinaV4/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kitty/source/repos/tpCatalinaV4/tpCatalinaV4/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kitty/source/repos/tpCatalinaV4/tpCatalinaV4/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-kznfqnxq14

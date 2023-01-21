@@ -1,0 +1,39 @@
+﻿@model tpCatalinaV4.Models.Tache
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Suppresion d'une tache</h1>
+
+<h3>Etes-vous sur de vouloir supprimer la tache?</h3>
+<div>
+    <h4>Tache</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Duree)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Duree)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Repetitive)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Repetitive)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="TacheID" />
+        <input type="submit" value="Supprimer" class="btn btn-danger" /> |
+        <a asp-action="Index">Retour a la liste des taches</a>
+    </form>
+</div>

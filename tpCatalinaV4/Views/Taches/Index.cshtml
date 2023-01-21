@@ -1,0 +1,47 @@
+﻿@model IEnumerable<tpCatalinaV4.Models.Tache>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Gestion des taches</h1>
+
+<p>
+    <a asp-action="Create">Ajouter une tache</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Duree)
+            </th>
+           @* <th>
+                @Html.DisplayNameFor(model => model.Repetitive)
+            </th>*@
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Duree)
+            </td>
+           @* <td>
+                @Html.DisplayFor(modelItem => item.Repetitive)
+            </td>*@
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.TacheID">Mettre a jour</a> |
+                <a asp-action="Details" asp-route-id="@item.TacheID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.TacheID">Supprimer</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

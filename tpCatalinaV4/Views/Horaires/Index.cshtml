@@ -1,0 +1,66 @@
+﻿@model IEnumerable<tpCatalinaV4.Models.Horaire>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Calendrier de la famille</h1>
+
+<p>
+    <a asp-action="Create">Ajouter un horaire            </a>
+    <br />
+    <form asp-action="Index" method="get">
+        <div class="form-actions no-color">
+            <p>
+                Chercher horaire d'utilisateur: <input type="text" name="SearchString" value="@ViewData["CurrentFilter"]" />
+                <input type="submit" value="Chercher" class="btn btn-default" /> |
+                <a asp-action="Index">Retour a l'horaire de la famille</a>
+            </p>
+        </div>
+    </form>
+   @*<a asp-action="HoraireUtilisateur">Voir l'horaire d'un utilisateur              </a>*@
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["DateSortParm"]">  @Html.DisplayNameFor(model => model.Date)</a>
+            </th>
+            @*<th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["NbRepetSortParm"]">@Html.DisplayNameFor(model => model.NbRepet)</a>
+            </th>*@
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["UtilisateurSortParm"]">  @Html.DisplayNameFor(model => model.Utilisateur)</a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["TacheSortParm"]"> @Html.DisplayNameFor(model => model.Tache)</a>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            @*<td>
+                @Html.DisplayFor(modelItem => item.NbRepet)
+            </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.Utilisateur.UtilisateurID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tache.TacheID)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.HoraireID">Mettre a jour</a> |
+                <a asp-action="Details" asp-route-id="@item.HoraireID">Details</a> 
+          |
+                <a asp-action="Delete" asp-route-id="@item.HoraireID">Supprimer</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
